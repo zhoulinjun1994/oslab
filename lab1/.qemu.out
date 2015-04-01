@@ -1,0 +1,55 @@
+(THU.CST) os is loading ...
+
+Special kernel symbols:
+  entry  0x00100000 (phys)
+  etext  0x0010362a (phys)
+  edata  0x0010ea16 (phys)
+  end    0x0010fd20 (phys)
+Kernel executable memory footprint: 64KB
+ebp:0x00007b08 eip:0x001009a6 args:0x0c8f0000 0x00940010 0x00000001 0x7b380000 
+    kern/debug/kdebug.c:306: print_stackframe+21
+ebp:0x00007b18 eip:0x00100c8f args:0x00920000 0x00000010 0x00000000 0x00000000 
+    kern/debug/kmonitor.c:125: mon_backtrace+10
+ebp:0x00007b38 eip:0x00100092 args:0x00bb0000 0x00000010 0x7b600000 0x00000000 
+    kern/init/init.c:48: grade_backtrace2+33
+ebp:0x00007b58 eip:0x001000bb args:0x00d90000 0x00000010 0x00000000 0x7b84ffff 
+    kern/init/init.c:53: grade_backtrace1+38
+ebp:0x00007b78 eip:0x001000d9 args:0x00fe0000 0x00000010 0x00000000 0x00000010 
+    kern/init/init.c:58: grade_backtrace0+23
+ebp:0x00007b98 eip:0x001000fe args:0x00550000 0x365c0010 0x36400010 0x130a0010 
+    kern/init/init.c:63: grade_backtrace+34
+ebp:0x00007bc8 eip:0x00100055 args:0x7d680000 0x00000000 0x00000000 0x00000000 
+    kern/init/init.c:28: kern_init+84
+ebp:0x00007bf8 eip:0x00007d68 args:0x7c4f0000 0xfcfa0000 0xd88ec031 0xd08ec08e 
+    <unknow>: -- 0x00007d67 --
+ebp:0x00000000 eip:0x00007c4f args:0xff53f000 0xe2c3f000 0xff53f000 0xff53f000 
+    <unknow>: -- 0x00007c4e --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xff53f000 0xe2c3f000 0xff53f000 0xff53f000 
+    <unknow>: -- 0xffffffff --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xff53f000 0xe2c3f000 0xff53f000 0xff53f000 
+    <unknow>: -- 0xffffffff --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xff53f000 0xe2c3f000 0xff53f000 0xff53f000 
+    <unknow>: -- 0xffffffff --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xff53f000 0xe2c3f000 0xff53f000 0xff53f000 
+    <unknow>: -- 0xffffffff --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+ebp:0x00000000 eip:0x00000000 args:0xff53f000 0xe2c3f000 0xff53f000 0xff53f000 
+    <unknow>: -- 0xffffffff --
+ebp:0xf000ff53 eip:0xf000ff53 args:0x00000000 0x00000000 0x00000000 0x00000000 
+    <unknow>: -- 0xf000ff52 --
+++ setup timer interrupts
+100 ticks
+End of Test.
+kernel panic at kern/trap/trap.c:18:
+    EOT: kernel seems ok.
+Welcome to the kernel debug monitor!!
+Type 'help' for a list of commands.
